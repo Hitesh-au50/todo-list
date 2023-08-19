@@ -1,0 +1,17 @@
+/* Reset margin and center content */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Set the base font size for better responsiveness */
+html {
+  font-size: 62.5%; /* 1rem = 10px, 62.5% of the default browser font size */
+}
+
+/* Use a common monospace font for displaying code */
+code {
+  font-family: 'Courier New', monospace; /* Use Courier New font or fallback to monospace */
+}
